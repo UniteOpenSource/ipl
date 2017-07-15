@@ -29,7 +29,7 @@ repo_name: squidfunk/mkdocs-material
 repo_url: https://github.com/squidfunk/mkdocs-material
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
+copyright: 'Copyright andcopy; 2016 - 2017 Martin Donath'
 
 # Theme directory
 theme_dir: material
@@ -37,7 +37,7 @@ theme_dir: material
 # Options
 extra:
   feature:
-    tabs: true
+    tabs: false
   palette:
     primary: indigo
     accent: indigo
@@ -75,18 +75,116 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - IPL: en/internetpubliclibrary.md
-  - Platforms: en/plataforms.md
-  - Programming Languages: en/programming-languages.md
-  - Front-End Development: en/frontend-development.md
-  - Back-End Development: en/backend-development.md
-  - Databases: en/databases.md
-  - Security: en/security.md
-  - Computer Science: en/computer-science.md
-  - Big Data: en/big-data.md
-  - Development Environment: en/development-environment.md
-  - Hardware: en/hardware.md
-  - Miscellaneous: en/miscellaneous.md
+  - Computing:
+    - Big Data:
+      - Home: en/computing/big-data.md
+      - Learn: en/computing/big-data/learn.md
+    - Computer Science: en/computing/computer-science.md
+    - Cyber Security: en/computing/cyber-security.md
+    - Data Science: en/computing/data-science.md
+    - Hardware: en/computing/hardware.md
+    - Networking: en/computing/netwoking.md
+    - IT Certification: en/computing/it-certification.md
+    - Operating Systems: en/computing/operating-systems.md
+    - Others: en/computing/zothers.md
+  - Development:
+    - Platforms: en/development/plataforms.md
+    - Programming Languages: en/development/programming-languages.md
+    - Back-End Development: en/development/backend-development.md
+    - Front-End Development: en/development/frontend-development.md
+    - Databases: en/development/databases.md
+    - Game Development: en/development/game-development.md
+    - Software Testing: en/development/software-testing.md
+    - Vulnerabilities: en/development/vulnerabilities.md
+    - Software Engineering: en/development/software-engineering.md
+    - Agile Project Management: en/development/agile-project-management.md
+    - Development Environment: en/development/development-environment.md
+    - Development Tools: en/development/development-tools.md
+    - E-Commerce: en/development/e-commerce.md
+    - Miscellaneous: en/development/miscellaneous.md
+  - Business:
+    - Finance: en/business/finance.md
+    - Entrepreneurship: en/business/entrepreneurship.md
+    - Communications: en/business/communications.md
+    - Management: en/business/management.md
+    - Sales: en/business/sales.md
+    - Strategy: en/business/strategy.md
+    - Operations: en/business/operations.md
+    - Project Management: en/business/project-management.md
+    - Business Law: en/business/business-law.md
+    - Data and Analytics: en/business/data-and-analytics.md
+    - Home Business: en/business/home-business.md
+    - Human Resources: en/business/human-resources.md
+    - Industry: en/business/industry.md
+    - Media: en/business/media.md
+    - Real Estate: en/business/real-estate.md
+    - Others: en/business/z-others.md
+  - Personal Development:
+    - Personal Transformation: en/personal-development/personal-transformation.md
+    - Productivity: en/personal-development/productivity.md
+    - Leadership: en/personal-development/leadership.md
+    - Personal Finance: en/personal-development/personal-finance.md
+    - Career Development: en/personal-development/career-development.md
+    - Parenting and Relationships: en/personal-development/parenting-and-relationships.md
+    - Happiness: en/personal-development/happiness.md
+    - Religion and Spirituality: en/personal-development/religion-and-spirituality.md
+    - Personal Brand Building: en/personal-development/-personal-brand-building.md
+    - Creativity: en/personal-development/creativity.md
+    - Influence: en/personal-development/influence.md
+    - Self Esteem: en/personal-development/self-esteem.md
+    - Stress Management: en/personal-development/stress-management.md
+    - Memory and Study Skills: en/personal-development/memory-and-study-skills.md
+    - Motivation: en/personal-development/motivation.md
+    - Others: en/personal-development/z-others.md
+  - Design:
+    - Web Design: en/design.md
+    - Graphic Design: en/design.md
+    - Design Tools: en/design.md
+    - User Experience: en/design.md
+    - Game Design: en/design.md
+    - Design Thinking: en/design.md
+    - 3D and Animation: en/design.md
+    - Fashion: en/design.md
+    - Architectural Design: en/design.md
+    - Interior Design: en/design.md
+    - Other: en/design.md
+  - Marketing:
+    - Digital Marketing: en/marketing.md
+    - Search Engine Optimization: en/marketing.md
+    - Social Media Marketing: en/marketing.md
+    - Branding: en/marketing.md
+    - Marketing Fundamentals: en/marketing.md
+    - Analytics and Automation: en/marketing.md
+    - Public Relations: en/marketing.md
+    - Advertising: en/marketing.md
+    - Video and Mobile Marketing: en/marketing.md
+    - Content Marketing: en/marketing.md
+    - Non-Digital Marketing: en/marketing.md
+    - Growth Hacking: en/marketing.md
+    - Affiliate Marketing: en/marketing.md
+    - Product Marketing: en/marketing.md
+    - Other: en/marketing.md
+  - Photography:
+    - Digital Photography: en/photography.md
+    - Photography Fundamentals: en/photography.md
+    - Portraits: en/photography.md
+    - Landscape: en/photography.md
+    - Black and White: en/photography.md
+    - Photography Tools: en/photography.md
+    - Mobile Photography: en/photography.md
+    - Travel Photography: en/photography.md
+    - Commercial Photography: en/photography.md
+    - Wedding Photography: en/photography.md
+    - Wildlife Photography: en/photography.md
+    - Video Design: en/photography.md
+    - Others: en/photography.md
+  - Science:
+    - Formal: en/academics.md
+    - Physical: en/academics.md
+    - Life: en/academics.md
+    - Social: en/academics.md
+    - Applied: en/academics.md
+    - Interdisciplinary: en/academics.md
 
 # Google Analytics
 google_analytics:
