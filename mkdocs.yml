@@ -19,10 +19,10 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
+site_name: Internet Public Library
 site_description: A Material Design theme for MkDocs
-site_author: Martin Donath
-site_url: http://squidfunk.github.io/mkdocs-material/
+site_author: Matheus Rocha Vieira
+site_url: http://ipl.pwnz.org
 
 # Repository
 repo_name: squidfunk/mkdocs-material
@@ -37,7 +37,7 @@ theme_dir: material
 # Options
 extra:
   feature:
-    tabs: false
+    tabs: true
   palette:
     primary: indigo
     accent: indigo
@@ -75,20 +75,18 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Material: index.md
-  - Getting started: getting-started.md
-  - Extensions:
-    - Admonition: extensions/admonition.md
-    - CodeHilite: extensions/codehilite.md
-    - Footnotes: extensions/footnotes.md
-    - Metadata: extensions/metadata.md
-    - Permalinks: extensions/permalinks.md
-    - PyMdown: extensions/pymdown.md
-  - Specimen: specimen.md
-  - Customization: customization.md
-  - Release notes: release-notes.md
-  - Contributing: contributing.md
-  - License: license.md
+  - IPL: en/internetpubliclibrary.md
+  - Platforms: en/plataforms.md
+  - Programming Languages: en/programming-languages.md
+  - Front-End Development: en/frontend-development.md
+  - Back-End Development: en/backend-development.md
+  - Databases: en/databases.md
+  - Security: en/security.md
+  - Computer Science: en/computer-science.md
+  - Big Data: en/big-data.md
+  - Development Environment: en/development-environment.md
+  - Hardware: en/hardware.md
+  - Miscellaneous: en/miscellaneous.md
 
 # Google Analytics
 google_analytics:
