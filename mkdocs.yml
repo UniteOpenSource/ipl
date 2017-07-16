@@ -34,12 +34,16 @@ copyright: 'Copyright andcopy; 2016 - 2017 Martin Donath'
 # Theme directory
 theme_dir: material
 
+docs_dir: docs
+
 # Options
 extra:
+  logo: 'images/logo.svg'
   feature:
     tabs: false
+  disqus: 'your-disqus-shortname'
   palette:
-    primary: indigo
+    primary: blue
     accent: indigo
   social:
     - type: globe
@@ -78,43 +82,322 @@ pages:
   - Computing:
     - Big Data:
       - Home: en/computing/big-data.md
+      - Calendar: en/computing/big-data/calendar.md
+      - Events & Conferences: en/computing/big-data/events-and-conferences.md
+      - Community Activities: en/computing/big-data/community-activities.md
+      - Publications: en/computing/big-data/publications.md
+      - Blogs & Sites: en/computing/big-data/blogs-and-sites.md
+      - Companys: en/computing/big-data/companys.md
+      - Courses:
+        - Free: en/computing/big-data/courses/free.md
+        - Paid: en/computing/big-data/courses/paid.md
       - Learn: en/computing/big-data/learn.md
-    - Computer Science: en/computing/computer-science.md
-    - Cyber Security: en/computing/cyber-security.md
-    - Data Science: en/computing/data-science.md
-    - Hardware: en/computing/hardware.md
-    - Networking: en/computing/netwoking.md
+      - Dicionary & Abbreviations: en/computing/big-data/dicionary-and-abbreviations.md
+      - Others: en/computing/big-data/z-others.md
+    - Computer Science:
+      - Home: en/computing/computer-science.md
+      - Calendar: en/computing/computer-science/calendar.md
+      - Events & Conferences: en/computing/computer-science/events-and-conferences.md
+      - Community Activities: en/computing/computer-science/community-activities.md
+      - Publications: en/computing/computer-science/publications.md
+      - Blogs & Sites: en/computing/computer-science/blogs-and-sites.md
+      - Companys: en/computing/computer-science/companys.md
+      - Courses:
+        - Free: en/computing/computer-science/courses/free.md
+        - Paid: en/computing/computer-science/courses/paid.md
+      - Learn: en/computing/computer-science/learn.md
+      - Dicionary & Abbreviations: en/computing/computer-science/dicionary-and-abbreviations.md
+      - Others: en/computing/computer-science/z-others.md
+    - Cyber Security:
+      - Home: en/computing/cyber-security.md
+      - Calendar: en/computing/cyber-security/calendar.md
+      - Events & Conferences: en/computing/cyber-security/events-and-conferences.md
+      - Community Activities: en/computing/cyber-security/community-activities.md
+      - Publications: en/computing/cyber-security/publications.md
+      - Blogs & Sites: en/computing/cyber-security/blogs-and-sites.md
+      - Companys: en/computing/cyber-security/companys.md
+      - Courses:
+        - Free: en/computing/cyber-security/courses/free.md
+        - Paid: en/computing/cyber-security/courses/paid.md
+      - Learn: en/computing/cyber-security/learn.md
+      - Dicionary & Abbreviations: en/computing/cyber-security/dicionary-and-abbreviations.md
+      - Others: en/computing/cyber-security/z-others.md
+    - Data Science:
+      - Home: en/computing/data-science.md
+      - Calendar: en/computing/data-science/calendar.md
+      - Events & Conferences: en/computing/data-science/events-and-conferences.md
+      - Community Activities: en/computing/data-science/community-activities.md
+      - Publications: en/computing/data-science/publications.md
+      - Blogs & Sites: en/computing/data-science/blogs-and-sites.md
+      - Companys: en/computing/data-science/companys.md
+      - Courses:
+        - Free: en/computing/data-science/courses/free.md
+        - Paid: en/computing/data-science/courses/paid.md
+      - Learn: en/computing/data-science/learn.md
+      - Dicionary & Abbreviations: en/computing/data-science/dicionary-and-abbreviations.md
+      - Others: en/computing/data-science/z-others.md
+    - Hardware:
+      - Home: en/computing/hardware.md
+      - Calendar: en/computing/hardware/calendar.md
+      - Events & Conferences: en/computing/hardware/events-and-conferences.md
+      - Community Activities: en/computing/hardware/community-activities.md
+      - Publications: en/computing/hardware/publications.md
+      - Blogs & Sites: en/computing/hardware/blogs-and-sites.md
+      - Companys: en/computing/hardware/companys.md
+      - Courses:
+        - Free: en/computing/hardware/courses/free.md
+        - Paid: en/computing/hardware/courses/paid.md
+      - Learn: en/computing/hardware/learn.md
+      - Dicionary & Abbreviations: en/computing/hardware/dicionary-and-abbreviations.md
+      - Others: en/computing/hardware/z-others.md
+    - Networking:
+      - Home: en/computing/netwoking.md
+      - Calendar: en/computing/netwoking/calendar.md
+      - Events & Conferences: en/computing/netwoking/events-and-conferences.md
+      - Community Activities: en/computing/netwoking/community-activities.md
+      - Publications: en/computing/netwoking/publications.md
+      - Blogs & Sites: en/computing/netwoking/blogs-and-sites.md
+      - Companys: en/computing/netwoking/companys.md
+      - Courses:
+        - Free: en/computing/netwoking/courses/free.md
+        - Paid: en/computing/netwoking/courses/paid.md
+      - Learn: en/computing/netwoking/learn.md
+      - Dicionary & Abbreviations: en/computing/netwoking/dicionary-and-abbreviations.md
+      - Others: en/computing/netwoking/z-others.md
+    - Operating Systems:
+      - Home: en/computing/operating-systems.md
+      - Calendar: en/computing/operating-systems/calendar.md
+      - Events & Conferences: en/computing/operating-systems/events-and-conferences.md
+      - Community Activities: en/computing/operating-systems/community-activities.md
+      - Publications: en/computing/operating-systems/publications.md
+      - Blogs & Sites: en/computing/operating-systems/blogs-and-sites.md
+      - Companys: en/computing/operating-systems/companys.md
+      - Courses:
+        - Free: en/computing/operating-systems/courses/free.md
+        - Paid: en/computing/operating-systems/courses/paid.md
+      - Learn: en/computing/operating-systems/learn.md
+      - Dicionary & Abbreviations: en/computing/operating-systems/dicionary-and-abbreviations.md
+      - Others: en/computing/operating-systems/z-others.md
     - IT Certification: en/computing/it-certification.md
-    - Operating Systems: en/computing/operating-systems.md
-    - Others: en/computing/zothers.md
+    - Others: en/computing/z-others.md
   - Development:
     - Platforms: en/development/plataforms.md
     - Programming Languages: en/development/programming-languages.md
-    - Back-End Development: en/development/backend-development.md
-    - Front-End Development: en/development/frontend-development.md
-    - Databases: en/development/databases.md
-    - Game Development: en/development/game-development.md
-    - Software Testing: en/development/software-testing.md
-    - Vulnerabilities: en/development/vulnerabilities.md
-    - Software Engineering: en/development/software-engineering.md
-    - Agile Project Management: en/development/agile-project-management.md
+    - Back-End Development:
+      - Home: en/development/backend-development.md
+      - Calendar: en/development/backend-development/calendar.md
+      - Events & Conferences: en/development/backend-development/events-and-conferences.md
+      - Community Activities: en/development/backend-development/community-activities.md
+      - Publications: en/development/backend-development/publications.md
+      - Blogs & Sites: en/development/backend-development/blogs-and-sites.md
+      - Companys: en/development/backend-development/companys.md
+      - Courses:
+        - Free: en/development/backend-development/courses/free.md
+        - Paid: en/development/backend-development/courses/paid.md
+      - Learn: en/development/backend-development/learn.md
+      - Dicionary & Abbreviations: en/development/backend-development/dicionary-and-abbreviations.md
+      - Others: en/development/backend-development/z-others.md
+    - Front-End Development:
+      - Home: en/development/frontend-development.md
+      - Calendar: en/development/frontend-development/calendar.md
+      - Events & Conferences: en/development/frontend-development/events-and-conferences.md
+      - Community Activities: en/development/frontend-development/community-activities.md
+      - Publications: en/development/frontend-development/publications.md
+      - Blogs & Sites: en/development/frontend-development/blogs-and-sites.md
+      - Companys: en/development/frontend-development/companys.md
+      - Courses:
+        - Free: en/development/frontend-development/courses/free.md
+        - Paid: en/development/frontend-development/courses/paid.md
+      - Learn: en/development/frontend-development/learn.md
+      - Dicionary & Abbreviations: en/development/frontend-development/dicionary-and-abbreviations.md
+      - Others: en/development/frontend-development/z-others.md
+    - Databases:
+      - Home: en/development/databases.md
+      - Calendar: en/development/databases/calendar.md
+      - Events & Conferences: en/development/databases/events-and-conferences.md
+      - Community Activities: en/development/databases/community-activities.md
+      - Publications: en/development/databases/publications.md
+      - Blogs & Sites: en/development/databases/blogs-and-sites.md
+      - Companys: en/development/databases/companys.md
+      - Courses:
+        - Free: en/development/databases/courses/free.md
+        - Paid: en/development/databases/courses/paid.md
+      - Learn: en/development/databases/learn.md
+      - Dicionary & Abbreviations: en/development/databases/dicionary-and-abbreviations.md
+      - Others: en/development/databases/z-others.md
+    - Game Development:
+      - Home: en/development/game-development.md
+      - Calendar: en/development/game-development/calendar.md
+      - Events & Conferences: en/development/game-development/events-and-conferences.md
+      - Community Activities: en/development/game-development/community-activities.md
+      - Publications: en/development/game-development/publications.md
+      - Blogs & Sites: en/development/game-development/blogs-and-sites.md
+      - Companys: en/development/game-development/companys.md
+      - Courses:
+        - Free: en/development/game-development/courses/free.md
+        - Paid: en/development/game-development/courses/paid.md
+      - Learn: en/development/game-development/learn.md
+      - Dicionary & Abbreviations: en/development/game-development/dicionary-and-abbreviations.md
+      - Others: en/development/game-development/z-others.md
+    - Software Testing:
+      - Home: en/development/software-testing.md
+      - Calendar: en/development/software-testing/calendar.md
+      - Events & Conferences: en/development/software-testing/events-and-conferences.md
+      - Community Activities: en/development/software-testing/community-activities.md
+      - Publications: en/development/software-testing/publications.md
+      - Blogs & Sites: en/development/software-testing/blogs-and-sites.md
+      - Companys: en/development/software-testing/companys.md
+      - Courses:
+        - Free: en/development/software-testing/courses/free.md
+        - Paid: en/development/software-testing/courses/paid.md
+      - Learn: en/development/software-testing/learn.md
+      - Dicionary & Abbreviations: en/development/software-testing/dicionary-and-abbreviations.md
+      - Others: en/development/software-testing/z-others.md
+    - Vulnerabilities:
+      - Home: en/development/vulnerabilities.md
+      - Publications: en/development/vulnerabilities/publications.md
+      - Blogs & Sites: en/development/vulnerabilities/blogs-and-sites.md
+      - Companys: en/development/vulnerabilities/companys.md
+      - Courses:
+        - Free: en/development/vulnerabilities/courses/free.md
+        - Paid: en/development/vulnerabilities/courses/paid.md
+      - Learn: en/development/vulnerabilities/learn.md
+      - Dicionary & Abbreviations: en/development/vulnerabilities/dicionary-and-abbreviations.md
+      - Others: en/development/vulnerabilities/z-others.md
+    - Software Engineering:
+      - Home: en/development/software-engineering.md
+      - Calendar: en/development/software-engineering/calendar.md
+      - Events & Conferences: en/development/software-engineering/events-and-conferences.md
+      - Community Activities: en/development/software-engineering/community-activities.md
+      - Publications: en/development/software-engineering/publications.md
+      - Blogs & Sites: en/development/software-engineering/blogs-and-sites.md
+      - Companys: en/development/software-engineering/companys.md
+      - Courses:
+        - Free: en/development/software-engineering/courses/free.md
+        - Paid: en/development/software-engineering/courses/paid.md
+      - Learn: en/development/software-engineering/learn.md
+      - Dicionary & Abbreviations: en/development/software-engineering/dicionary-and-abbreviations.md
+      - Others: en/development/software-engineering/z-others.md
+    - Agile Project Management:
+      - Home: en/development/agile-project-management.md
+      - Calendar: en/development/agile-project-management/calendar.md
+      - Events & Conferences: en/development/agile-project-management/events-and-conferences.md
+      - Community Activities: en/development/agile-project-management/community-activities.md
+      - Publications: en/development/agile-project-management/publications.md
+      - Blogs & Sites: en/development/agile-project-management/blogs-and-sites.md
+      - Companys: en/development/agile-project-management/companys.md
+      - Courses:
+        - Free: en/development/agile-project-management/courses/free.md
+        - Paid: en/development/agile-project-management/courses/paid.md
+      - Learn: en/development/agile-project-management/learn.md
+      - Dicionary & Abbreviations: en/development/agile-project-management/dicionary-and-abbreviations.md
+      - Others: en/development/agile-project-management/z-others.md
     - Development Environment: en/development/development-environment.md
-    - Development Tools: en/development/development-tools.md
-    - E-Commerce: en/development/e-commerce.md
+    - Development Tools:
+      - Home: en/development/development-tools.md
+      - Community Activities: en/development/development-tools/community-activities.md
+      - Publications: en/development/development-tools/publications.md
+      - Blogs & Sites: en/development/development-tools/blogs-and-sites.md
+      - Companys: en/development/development-tools/companys.md
+      - Courses:
+        - Free: en/development/development-tools/courses/free.md
+        - Paid: en/development/development-tools/courses/paid.md
+      - Learn: en/development/development-tools/learn.md
+      - Dicionary & Abbreviations: en/development/development-tools/dicionary-and-abbreviations.md
+      - Others: en/development/development-tools/z-others.md
+    - E-Commerce:
+      - Home: en/development/e-commerce.md
+      - Calendar: en/development/e-commerce/calendar.md
+      - Events & Conferences: en/development/e-commerce/events-and-conferences.md
+      - Community Activities: en/development/e-commerce/community-activities.md
+      - Publications: en/development/e-commerce/publications.md
+      - Blogs & Sites: en/development/e-commerce/blogs-and-sites.md
+      - Companys: en/development/e-commerce/companys.md
+      - Courses:
+        - Free: en/development/e-commerce/courses/free.md
+        - Paid: en/development/e-commerce/courses/paid.md
+      - Learn: en/development/e-commerce/learn.md
+      - Dicionary & Abbreviations: en/development/e-commerce/dicionary-and-abbreviations.md
+      - Others: en/development/e-commerce/z-others.md
     - Miscellaneous: en/development/miscellaneous.md
   - Business:
-    - Finance: en/business/finance.md
+    - Finance:
+      - Home: en/business/finance.md
+      - Calendar: en/business/finance/calendar.md
+      - Events & Conferences: en/business/finance/events-and-conferences.md
+      - Community Activities: en/business/finance/community-activities.md
+      - Publications: en/business/finance/publications.md
+      - Blogs & Sites: en/business/finance/blogs-and-sites.md
+      - Companys: en/business/finance/companys.md
+      - Courses:
+        - Free: en/business/finance/courses/free.md
+        - Paid: en/business/finance/courses/paid.md
+      - Learn: en/business/finance/learn.md
+      - Dicionary & Abbreviations: en/business/finance/dicionary-and-abbreviations.md
+      - Others: en/business/finance/z-others.md
     - Entrepreneurship: en/business/entrepreneurship.md
     - Communications: en/business/communications.md
     - Management: en/business/management.md
-    - Sales: en/business/sales.md
+    - Sales:
+      - Home: en/business/sales.md
+      - Calendar: en/business/sales/calendar.md
+      - Events & Conferences: en/business/sales/events-and-conferences.md
+      - Community Activities: en/business/sales/community-activities.md
+      - Publications: en/business/sales/publications.md
+      - Blogs & Sites: en/business/sales/blogs-and-sites.md
+      - Companys: en/business/sales/companys.md
+      - Courses:
+        - Free: en/business/sales/courses/free.md
+        - Paid: en/business/sales/courses/paid.md
+      - Learn: en/business/sales/learn.md
+      - Dicionary & Abbreviations: en/business/sales/dicionary-and-abbreviations.md
+      - Others: en/business/sales/z-others.md
     - Strategy: en/business/strategy.md
     - Operations: en/business/operations.md
-    - Project Management: en/business/project-management.md
+    - Project Management:
+      - Home: en/business/project-management.md
+      - Calendar: en/business/project-management/calendar.md
+      - Events & Conferences: en/business/project-management/events-and-conferences.md
+      - Community Activities: en/business/project-management/community-activities.md
+      - Publications: en/business/project-management/publications.md
+      - Blogs & Sites: en/business/project-management/blogs-and-sites.md
+      - Companys: en/business/project-management/companys.md
+      - Courses:
+        - Free: en/business/project-management/courses/free.md
+        - Paid: en/business/project-management/courses/paid.md
+      - Learn: en/business/project-management/learn.md
+      - Dicionary & Abbreviations: en/business/project-management/dicionary-and-abbreviations.md
+      - Others: en/business/project-management/z-others.md
     - Business Law: en/business/business-law.md
-    - Data and Analytics: en/business/data-and-analytics.md
+    - Data and Analytics:
+      - Home: en/business/data-and-analytics.md
+      - Calendar: en/business/data-and-analytics/calendar.md
+      - Events & Conferences: en/business/data-and-analytics/events-and-conferences.md
+      - Community Activities: en/business/data-and-analytics/community-activities.md
+      - Publications: en/business/data-and-analytics/publications.md
+      - Blogs & Sites: en/business/data-and-analytics/blogs-and-sites.md
+      - Companys: en/business/data-and-analytics/companys.md
+      - Courses:
+        - Free: en/business/data-and-analytics/courses/free.md
+        - Paid: en/business/data-and-analytics/courses/paid.md
+      - Learn: en/business/data-and-analytics/learn.md
+      - Dicionary & Abbreviations: en/business/data-and-analytics/dicionary-and-abbreviations.md
+      - Others: en/business/data-and-analytics/z-others.md
     - Home Business: en/business/home-business.md
-    - Human Resources: en/business/human-resources.md
+    - Human Resources:
+      - Home: en/business/human-resources.md
+      - Calendar: en/business/human-resources/calendar.md
+      - Events & Conferences: en/business/human-resources/events-and-conferences.md
+      - Community Activities: en/business/human-resources/community-activities.md
+      - Publications: en/business/human-resources/publications.md
+      - Blogs & Sites: en/business/human-resources/blogs-and-sites.md
+      - Companys: en/business/human-resources/companys.md
+      - Courses:
+        - Free: en/business/human-resources/courses/free.md
+        - Paid: en/business/human-resources/courses/paid.md
+      - Learn: en/business/human-resources/learn.md
+      - Dicionary & Abbreviations: en/business/human-resources/dicionary-and-abbreviations.md
+      - Others: en/business/human-resources/z-others.md
     - Industry: en/business/industry.md
     - Media: en/business/media.md
     - Real Estate: en/business/real-estate.md
@@ -137,47 +420,139 @@ pages:
     - Motivation: en/personal-development/motivation.md
     - Others: en/personal-development/z-others.md
   - Design:
-    - Web Design: en/design.md
-    - Graphic Design: en/design.md
-    - Design Tools: en/design.md
-    - User Experience: en/design.md
-    - Game Design: en/design.md
-    - Design Thinking: en/design.md
-    - 3D and Animation: en/design.md
-    - Fashion: en/design.md
-    - Architectural Design: en/design.md
-    - Interior Design: en/design.md
-    - Other: en/design.md
+    - Web Design:
+      - Home: en/design/web-design.md
+      - Calendar: en/design/web-design/calendar.md
+      - Events & Conferences: en/design/web-design/events-and-conferences.md
+      - Community Activities: en/design/web-design/community-activities.md
+      - Publications: en/design/web-design/publications.md
+      - Blogs & Sites: en/design/web-design/blogs-and-sites.md
+      - Companys: en/design/web-design/companys.md
+      - Courses:
+        - Free: en/design/web-design/courses/free.md
+        - Paid: en/design/web-design/courses/paid.md
+      - Learn: en/design/web-design/learn.md
+      - Dicionary & Abbreviations: en/design/web-design/dicionary-and-abbreviations.md
+      - Others: en/design/web-design/z-others.md
+    - Graphic Design:
+      - Home: en/design/graphic-design.md
+      - Calendar: en/design/graphic-design/calendar.md
+      - Events & Conferences: en/design/graphic-design/events-and-conferences.md
+      - Community Activities: en/design/graphic-design/community-activities.md
+      - Publications: en/design/graphic-design/publications.md
+      - Blogs & Sites: en/design/graphic-design/blogs-and-sites.md
+      - Companys: en/design/graphic-design/companys.md
+      - Courses:
+        - Free: en/design/graphic-design/courses/free.md
+        - Paid: en/design/graphic-design/courses/paid.md
+      - Learn: en/design/graphic-design/learn.md
+      - Dicionary & Abbreviations: en/design/graphic-design/dicionary-and-abbreviations.md
+      - Others: en/design/graphic-design/z-others.md
+    - Design Tools: en/design/design-tools.md
+    - User Experience:
+      - Home: en/design/user-experience.md
+      - Calendar: en/design/user-experience/calendar.md
+      - Events & Conferences: en/design/user-experience/events-and-conferences.md
+      - Community Activities: en/design/user-experience/community-activities.md
+      - Publications: en/design/user-experience/publications.md
+      - Blogs & Sites: en/design/user-experience/blogs-and-sites.md
+      - Companys: en/design/user-experience/companys.md
+      - Courses:
+        - Free: en/design/user-experience/courses/free.md
+        - Paid: en/design/user-experience/courses/paid.md
+      - Learn: en/design/user-experience/learn.md
+      - Dicionary & Abbreviations: en/design/user-experience/dicionary-and-abbreviations.md
+      - Others: en/design/user-experience/z-others.md
+    - Game Design: en/design/game-design.md
+    - Design Thinking:
+      - Home: en/design/design-thinking.md
+      - Calendar: en/design/design-thinking/calendar.md
+      - Events & Conferences: en/design/design-thinking/events-and-conferences.md
+      - Community Activities: en/design/design-thinking/community-activities.md
+      - Publications: en/design/design-thinking/publications.md
+      - Blogs & Sites: en/design/design-thinking/blogs-and-sites.md
+      - Companys: en/design/design-thinking/companys.md
+      - Courses:
+        - Free: en/design/design-thinking/courses/free.md
+        - Paid: en/design/design-thinking/courses/paid.md
+      - Learn: en/design/design-thinking/learn.md
+      - Dicionary & Abbreviations: en/design/design-thinking/dicionary-and-abbreviations.md
+      - Others: en/design/design-thinking/z-others.md
+    - 3D & Animation: en/design/3d-and-animation.md
+    - Fashion: en/design/fashion.md
+    - Architectural Design: en/design/architectural-design.md
+    - Interior Design: en/design/interior-design.md
+    - Others: en/design/z-others.md
   - Marketing:
-    - Digital Marketing: en/marketing.md
-    - Search Engine Optimization: en/marketing.md
-    - Social Media Marketing: en/marketing.md
-    - Branding: en/marketing.md
-    - Marketing Fundamentals: en/marketing.md
-    - Analytics and Automation: en/marketing.md
-    - Public Relations: en/marketing.md
-    - Advertising: en/marketing.md
-    - Video and Mobile Marketing: en/marketing.md
-    - Content Marketing: en/marketing.md
-    - Non-Digital Marketing: en/marketing.md
-    - Growth Hacking: en/marketing.md
-    - Affiliate Marketing: en/marketing.md
-    - Product Marketing: en/marketing.md
-    - Other: en/marketing.md
+    - Digital Marketing:
+      - Home: en/marketing/digital-marketing.md
+      - Calendar: en/marketing/digital-marketing/calendar.md
+      - Events & Conferences: en/marketing/digital-marketing/events-and-conferences.md
+      - Community Activities: en/marketing/digital-marketing/community-activities.md
+      - Publications: en/marketing/digital-marketing/publications.md
+      - Blogs & Sites: en/marketing/digital-marketing/blogs-and-sites.md
+      - Companys: en/marketing/digital-marketing/companys.md
+      - Courses:
+        - Free: en/marketing/digital-marketing/courses/free.md
+        - Paid: en/marketing/digital-marketing/courses/paid.md
+      - Learn: en/marketing/digital-marketing/learn.md
+      - Dicionary & Abbreviations: en/marketing/digital-marketing/dicionary-and-abbreviations.md
+      - Others: en/marketing/digital-marketing/z-others.md
+    - Search Engine Optimization: en/marketing/seo.md
+    - Social Media Marketing: en/marketing/social-media.md
+    - Branding: en/marketing/branding.md
+    - Marketing Fundamentals: en/marketing/marketing-fundamentals.md
+    - Analytics & Automation: en/marketing/analytics-and-automation.md
+    - Public Relations: en/marketing/public-relations.md
+    - Advertising: en/marketing/advertising.md
+    - Video & Mobile Marketing: en/marketing/video-and-modile-marketing.md
+    - Content Marketing: en/marketing/content-marketing.md
+    - Non-Digital Marketing: en/marketing/non-digital-marketing.md
+    - Growth Hacking: en/marketing/growth-hacking.md
+    - Affiliate Marketing: en/marketing/afiliate-marketing.md
+    - Product Marketing: en/marketing/product-marketing.md
+    - Other: en/marketing/z-others.md
   - Photography:
-    - Digital Photography: en/photography.md
-    - Photography Fundamentals: en/photography.md
-    - Portraits: en/photography.md
-    - Landscape: en/photography.md
-    - Black and White: en/photography.md
-    - Photography Tools: en/photography.md
-    - Mobile Photography: en/photography.md
-    - Travel Photography: en/photography.md
-    - Commercial Photography: en/photography.md
-    - Wedding Photography: en/photography.md
-    - Wildlife Photography: en/photography.md
-    - Video Design: en/photography.md
-    - Others: en/photography.md
+    - Digital Photography:
+      - Home: en/photography/digital-photography.md
+      - Calendar: en/photography/digital-photography/calendar.md
+      - Events & Conferences: en/photography/digital-photography/events-and-conferences.md
+      - Community Activities: en/photography/digital-photography/community-activities.md
+      - Publications: en/photography/digital-photography/publications.md
+      - Blogs & Sites: en/photography/digital-photography/blogs-and-sites.md
+      - Companys: en/photography/digital-photography/companys.md
+      - Courses:
+        - Free: en/photography/digital-photography/courses/free.md
+        - Paid: en/photography/digital-photography/courses/paid.md
+      - Learn: en/photography/digital-photography/learn.md
+      - Dicionary & Abbreviations: en/photography/digital-photography/dicionary-and-abbreviations.md
+      - Others: en/photography/digital-photography/z-others.md
+    - Analogue Photography:
+      - Home: en/photography/analogue-photography.md
+      - Calendar: en/photography/analogue-photography/calendar.md
+      - Events & Conferences: en/photography/analogue-photography/events-and-conferences.md
+      - Community Activities: en/photography/analogue-photography/community-activities.md
+      - Publications: en/photography/analogue-photography/publications.md
+      - Blogs & Sites: en/photography/analogue-photography/blogs-and-sites.md
+      - Companys: en/photography/analogue-photography/companys.md
+      - Courses:
+        - Free: en/photography/analogue-photography/courses/free.md
+        - Paid: en/photography/analogue-photography/courses/paid.md
+      - Learn: en/photography/analogue-photography/learn.md
+      - Dicionary & Abbreviations: en/photography/analogue-photography/dicionary-and-abbreviations.md
+      - Others: en/photography/analogue-photography/z-others.md
+    - Photography Fundamentals: en/photography/photography-fundamentals.md
+    - Portraits: en/photography/portraits.md
+    - Landscape: en/photography/landscape.md
+    - Black & White: en/photography/blank-and-white.md
+    - Photography Tools: en/photography/photography-tools.md
+    - Mobile Photography: en/photography/mobile-photography.md
+    - Travel Photography: en/photography/travel-photography.md
+    - Commercial Photography: en/photography/commercial-photography.md
+    - Wedding Photography: en/photography/wedding-photography.md
+    - Wildlife Photography: en/photography/wild-life-photography.md
+    - Video Design: en/photography/video-design.md
+    - Others: en/photography/z-others.md
   - Science:
     - Formal: en/academics.md
     - Physical: en/academics.md
@@ -188,5 +563,5 @@ pages:
 
 # Google Analytics
 google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - 'UA-XXXXXXXX-X'
   - auto
